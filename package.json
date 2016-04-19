@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-taskcluster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An eslint plugin for the Taskcluster Platform",
   "keywords": [
     "eslint",
@@ -17,11 +17,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "requireindex": "~1.1.0",
+    "eslint": "^2.8.0",
+    "babel-eslint": "^6.0.2"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.2",
-    "eslint": "^2.8.0",
     "mocha": "^2.4.5"
   },
   "engines": {
