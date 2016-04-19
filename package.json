@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-taskcluster",
+  "version": "1.0.0",
+  "description": "An eslint plugin for the Taskcluster Platform",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskcluster/eslint-plugin-taskcluster.git"
+  },
+  "author": "Brian Stack <bstack@mozilla.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.8.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MPL-2.0"
+}
