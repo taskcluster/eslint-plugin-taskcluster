@@ -14,11 +14,11 @@ ruleTester.run("no-for-in", rule, {
   invalid: [
     {
       code: "for (let x in y) {}",
-      errors: [ { message: "Use a for-of statement rather than a for-in statement." } ]
+      errors: [ { message: "Avoid for-in loops! Replace with a for-of loop." } ]
     },
     {
       code: "let x = null; for (x in y) {}",
-      errors: [ { message: "Use a for-of statement rather than a for-in statement." } ]
+      errors: [ { message: "Avoid for-in loops! Replace with a for-of loop." } ]
     }
   ]
 });
